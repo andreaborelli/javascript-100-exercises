@@ -30,6 +30,7 @@ header h1 {
     margin: 10px;
 }
 
+
 /* grid containers */
 .grid-container {
     display: flex;
@@ -58,7 +59,10 @@ header h1 {
     background-color: #000000;
     color: #EFD81D;
 }
-
+.level{
+    display: flex;
+    align-items: center;
+}
 /* footer styles */
 footer {
     margin-top: auto;  
@@ -82,3 +86,17 @@ footer p {
     margin-bottom: 20px;
   }
 }
+
+
+
+
+
+
+
+
+img {
+    width: 50px; 
+    margin-right: 20px; 
+}
+
+
