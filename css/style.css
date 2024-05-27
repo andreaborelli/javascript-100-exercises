@@ -37,7 +37,6 @@ header h1 {
     flex-wrap: wrap;
     gap: 10px;
     width: 100%;
-    justify-content: center;
     padding: 10px;
 }
 
@@ -85,6 +84,10 @@ footer p {
   header img{
     margin-bottom: 20px;
   }
+  .grid-container {
+    display: grid;
+    justify-content: center;
+}
 }
 
 
