@@ -1,4 +1,8 @@
 /* basic styles for the document */
+html, body {
+    overflow-x: hidden;
+    margin: 0 auto;
+}
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -39,7 +43,13 @@ header h1 {
     width: 100%;
     padding: 10px;
 }
-
+.grid-container-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+}
 /* grid elements */
 .grid-item {
     background-color: #FFF;
