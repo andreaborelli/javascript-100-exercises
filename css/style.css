@@ -40,7 +40,6 @@ header h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    width: 100%;
     padding: 10px;
 }
 .grid-container-item {
@@ -76,7 +75,7 @@ header h1 {
 footer {
     margin-top: auto;  
     text-align: left;  
-    padding: 10px 0;   
+    padding: 10px 5px;   
 }
 
 footer p {
@@ -97,6 +96,7 @@ footer p {
   .grid-container {
     display: grid;
     justify-content: center;
+    align-items: center;
 }
 }
 
